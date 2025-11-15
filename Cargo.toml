@@ -19,5 +19,9 @@ awmp = "0.8.1"
 
 bcrypt = "0.17.1"
 
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt"] }
+tracing-actix-web = "0.7" 
+
 
 
