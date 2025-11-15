@@ -1,0 +1,23 @@
+[package]
+name = "my-auth-service"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.11.0"
+uuid = { version = "1.18.1", features = ["serde", "v4"] }
+
+chrono = { version = "0.4.42", features = ["serde"] }
+
+r2d2 = "0.8.10"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0" 
+diesel = { version = "2.3.3", features = ["postgres", "r2d2", "chrono", "uuid", "extras"] }
+dotenvy = "0.15.7"
+error = "0.1.9"
+awmp = "0.8.1"
+
+bcrypt = "0.17.1"
+
+
+
